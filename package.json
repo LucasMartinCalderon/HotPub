@@ -24,6 +24,7 @@
     "node-svm": "^2.1.8",
     "nodemon": "^1.14.12",
     "passport": "^0.4.0",
-    "serve-favicon": "~2.4.5"
+    "serve-favicon": "~2.4.5",
+    "watson-developer-cloud": "^3.0.6"
   }
 }

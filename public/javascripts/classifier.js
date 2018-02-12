@@ -30,17 +30,11 @@ var twit = T.get('search/tweets', params).then( (info) => {
     var parameters = {
       'text': data,
       'features': {
-        'semantic_roles': {},
         'entities': {
           'emotion': true,
           'sentiment': true,
-          'limit': 2,
-        },
-        'keywords': {
-          'emotion': true,
-          'sentiment': true,
-          'limit': 2
-        },
+          'limit': 1,
+        }
       }
     };
     natural_language_understanding.analyze(parameters, function(err, response) {
